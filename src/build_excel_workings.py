@@ -20,7 +20,7 @@ pandas
 XlsxWriter
 """
 
-from __future__ import annotations
+from __future__ import annotations  # noqa: I001
 
 import argparse
 from pathlib import Path
