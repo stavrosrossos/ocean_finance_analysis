@@ -1,3 +1,15 @@
+"""
+Exploratory full-removal counterfactual.
+
+This model was used during the initial investigation but is not the
+basis of the final recommendation.
+
+The final analysis uses conditional suppression of Card 29 when
+alternative offers exist. See:
+
+    src/run_conditional_counterfactual.py
+"""
+
 from pathlib import Path  # noqa: I001
 
 import duckdb
